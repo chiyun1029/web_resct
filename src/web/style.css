@@ -1,0 +1,113 @@
+.School {
+  height: 100vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+
+.target-element{
+  position:absolute;/*位置設定*/
+  opacity:100%;/*改透明度*/
+  width:20px;/*調整橫向大小 (橢圓形)*/
+  height:20px;/*調整縱向大小 (橢圓形)*/
+  border-radius:100%;/*原腳比例 (1% = 正方形)*/
+  background-color:rgba(250,159,22,10); /*改顏色、第四個為透明值*/
+
+  /*cursor:pointer;*//*靠過去滑鼠會變*/
+}
+
+.target-element1{
+  position:absolute;/*位置設定*/
+  opacity:100%;/*改透明度*/
+  width:20px;/*調整橫向大小 (橢圓形)*/
+  height:20px;/*調整縱向大小 (橢圓形)*/
+  border-radius:100%;/*原腳比例 (1% = 正方形)*/
+  background-color:rgba(255,0,0,10); /*改顏色、第四個為透明值*/
+  border:2px solid rgb(7, 5, 2);
+  /*cursor:pointer;*//*靠過去滑鼠會變*/
+}
+
+.target-element2{
+  position:absolute;/*位置設定*/
+  opacity:100%;/*改透明度*/
+  width:20px;/*調整橫向大小 (橢圓形)*/
+  height:20px;/*調整縱向大小 (橢圓形)*/
+  border-radius:100%;/*原腳比例 (1% = 正方形)*/
+  background-color:rgba(255,0,0,10); /*改顏色、第四個為透明值*/
+  border:2px solid rgb(250, 159, 22);
+  /*cursor:pointer;*//*靠過去滑鼠會變*/
+}
+
+.target-element3{
+  position:absolute;/*位置設定*/
+  opacity:100%;/*改透明度*/
+  width:20px;/*調整橫向大小 (橢圓形)*/
+  height:20px;/*調整縱向大小 (橢圓形)*/
+  border-radius:100%;/*原腳比例 (1% = 正方形)*/
+  background-color:rgba(255,0,0,10); /*改顏色、第四個為透明值*/
+  border:2px solid rgb(7, 5, 2);
+  /*cursor:pointer;*//*靠過去滑鼠會變*/}
+
+.target-element4{
+  position:absolute;/*位置設定*/
+  opacity:100%;/*改透明度*/
+  width:20px;/*調整橫向大小 (橢圓形)*/
+  height:20px;/*調整縱向大小 (橢圓形)*/
+  border-radius:100%;/*原腳比例 (1% = 正方形)*/
+  background-color:rgba(255,0,0,10); /*改顏色、第四個為透明值*/
+  border:2px solid rgb(7, 5, 2);
+  /*cursor:pointer;*//*靠過去滑鼠會變*/}
+
+.target-element5{
+  position:absolute;/*位置設定*/
+  opacity:100%;/*改透明度*/
+  width:20px;/*調整橫向大小 (橢圓形)*/
+  height:20px;/*調整縱向大小 (橢圓形)*/
+  border-radius:100%;/*原腳比例 (1% = 正方形)*/
+  background-color:rgba(255,0,0,10); /*改顏色、第四個為透明值*/
+  border:2px solid rgb(7, 5, 2);
+  /*cursor:pointer;*//*靠過去滑鼠會變*/}
+.target-element6{
+  position:absolute;/*位置設定*/
+  opacity:100%;/*改透明度*/
+  width:20px;/*調整橫向大小 (橢圓形)*/
+  height:20px;/*調整縱向大小 (橢圓形)*/
+  border-radius:100%;/*原腳比例 (1% = 正方形)*/
+  background-color:rgba(255,0,0,10); /*改顏色、第四個為透明值*/
+  border:2px solid rgb(7, 5, 2);
+  /*cursor:pointer;*//*靠過去滑鼠會變*/}
+
+
+  .target-element7{
+    position:absolute;/*位置設定*/
+    opacity:100%;/*改透明度*/
+    width:50px;/*調整橫向大小 (橢圓形)*/
+    height:50px;/*調整縱向大小 (橢圓形)*/
+    border-radius:100%;/*原腳比例 (1% = 正方形)*/
+    background-color:rgba(255,0,0,0); /*改顏色、第四個為透明值*/
+    border:5px solid rgb(9, 8, 8);
+    /*cursor:pointer;*//*靠過去滑鼠會變*/}
+
+    .target-element8{
+      position:absolute;/*位置設定*/
+      opacity:100%;/*改透明度*/
+      width:100px;/*調整橫向大小 (橢圓形)*/
+      height:100px;/*調整縱向大小 (橢圓形)*/
+      border-radius:100%;/*原腳比例 (1% = 正方形)*/
+      background-color:rgba(255,0,0,0); /*改顏色、第四個為透明值*/
+      border:5px solid rgb(142, 13, 13);
+      /*cursor:pointer;*//*靠過去滑鼠會變*/}

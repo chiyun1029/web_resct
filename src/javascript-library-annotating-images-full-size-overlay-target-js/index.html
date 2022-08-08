@@ -1,0 +1,131 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>target.js Demo</title>
+
+<link href="http://www.cssscript.com/wp-includes/css/sticky.css" rel="stylesheet" type="text/css">
+
+<link href="dist/target.min.css" rel="stylesheet" type="text/css">
+
+<style>
+
+#product { width:600px; height:450px; margin:30px auto;}
+
+</style>
+
+</head>
+
+
+
+<body>
+
+<div id="css-script-menu">
+
+  <div class="css-script-center">
+
+    <ul>
+
+      <li><a href="http://www.cssscript.com/javascript-library-annotating-images-full-size-overlay-target-js/">Download</a></li>
+
+      <li><a href="http://www.cssscript.com/">Back To CSS Script</a></li>
+
+    </ul>
+
+    <div class="css-script-ads">
+
+    <script type="text/javascript">
+    google_ad_client = "ca-pub-2783044520727903";
+
+/* CSSScript Demo Page */
+
+google_ad_slot = "3025259193";
+
+google_ad_width = 728;
+
+google_ad_height = 90;
+
+
+
+</script>
+
+      <script type="text/javascript"
+
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+
+</script></div>
+
+    <div class="css-script-clear"></div>
+
+  </div>
+
+</div>
+
+<h1 style="margin:150px auto 30px auto; text-align:center">target.js Demo</h1>
+
+<div id="product">
+
+       <img src="https://unsplash.it/600/450?image=1059">
+
+</div>
+
+<script src="target.js"></script>
+
+<script>
+
+target.set(
+
+        {
+
+          el: '#product',
+
+          text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.  ',
+
+          pointX: '2.4rem',
+
+          pointY: '9rem'
+
+        },
+
+        {
+
+          el: '#product',
+
+          text: 'Aenean commodo ligula eget dolor. Aenean massa.!',
+
+          pointX: '10rem',
+
+          pointY: '21rem'
+
+        },
+
+        {
+
+          el: '#product',
+
+          text: 'Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.',
+
+          pointX: '16rem',
+
+          pointY: '35rem'
+
+        }
+
+      ).init();
+
+</script>
+
+
+
+</body>
+
+</html>
+
